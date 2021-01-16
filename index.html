@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,&display=swap&subset=cyrillic">
+   <title>Document</title>
+</head>
+<body>
+   <div class="form">
+      <form action="#">
+         <div class="form__content">
+            <div class="form__head">
+               <h1>Введите параметры</h1>
+            </div>
+            <div class="form__block">
+               <!-- <label for="">Начальная высота броска</label> -->
+               <input placeholder="Начальная высота" type="text" name="h0"  id="add_id_1">
+            </div>
+            <div class="form__block">
+               <!-- <label for="">Начальная скорость броска</label> -->
+               <input placeholder="Начальная скорость" type="text" name="v0" id="add_id_2">
+            </div>
+            <div class="form__block form__block_last">
+               <!-- <label for="">Угол наклона начальной скорости броска к горизонту</label> -->
+               <input placeholder="Угол броска" type="text" name="sin" id="add_id_3">
+            </div>
+            <div class="form__button">
+               <button onClick='return add_del("add_id_1", "add_id_2", "add_id_3")' type="submit" >Посчитать</button>
+            </div>
+         </div>
+      </form>
+   </div>
+   <!-- <label for="">Нчальная высота броска</label>
+   <input placeholder="Нчальная высота броска" type="text" name="h0"  id="add_id_1"><br><br>
+   <label for="">Нчальная скорость броска</label>
+   <input type="text" name="v0" id="add_id_2"><br><br>
+   <label for="">Угол наклона начальной скорости броска к горизонту</label>
+   <input type="text" name="sin" id="add_id_3"><br><br>
+   <button onClick='return add_del("add_id_1", "add_id_2", "add_id_3")' type="submit" >submit</button><br><br> -->
+   <script src="js/main.js"></script>
+</body>
+</html>
