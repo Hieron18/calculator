@@ -102,8 +102,15 @@ body {
 
 @media screen and (max-width: 479px){
    .form__content{
+      max-width: 320px;
       min-width: 310px;
       min-height: unset;
+      position: relative;
+      left: unset;
+      top: unset;
+      transform: unset;
+      margin-left: auto;
+      margin-right: auto;
       padding: 20px;
    }
    .form__head{
