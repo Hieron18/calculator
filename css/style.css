@@ -79,22 +79,25 @@ body {
 .menu__link {
    /* background-color:#893F45; */
    border-radius: 5px;
+   /* padding: 5px 10px; */
    /* border-bottom: 2px solid #000; */
    margin: 0px 10px;
-   padding: 5px 10px;
    list-style-type: none;
-   transition: 0.3s ease all 0s;
+   transition: 0.3s;
 }
 .menu__link:hover {
    background-color:#4169E1;
    border: 2px solid #000;
-   transition: 0.3s ease all 0s;
 }
 .active{
    background-color:#4169E1;
    border: 2px solid #000;
 }
 .menu__link a{
+   display: flex;
+   align-items: center;
+   height: 30px;
+   padding: 0px 10px;
    color: #76FF7A;
    font-weight: 500;
 }
