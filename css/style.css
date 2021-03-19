@@ -10,7 +10,9 @@
 }
 body {
    width: 100%;
-   background-color: #f79b72;
+   background-color:#9370DB; 
+   /* #9370DB */
+   /* #f79b72 */
 }
 
 .form{
@@ -50,6 +52,7 @@ body {
 .form__button{
 }
 .form__button button{
+   cursor: pointer;
    border-radius: 25px;
    color: #fff;
    font-size: 16px;
@@ -57,6 +60,46 @@ body {
    min-height: 60px;
    background-color: #f79b72;
 }
+
+.nav {
+}
+.menu {
+}
+.menu__content {
+   display: flex;
+   justify-content: center;
+}
+.menu__block{
+   max-width: 550px;
+   margin: 25px 0px;
+}
+.menu__block ul{
+   display: flex;
+}
+.menu__link {
+   /* background-color:#893F45; */
+   border-radius: 5px;
+   /* border-bottom: 2px solid #000; */
+   margin: 0px 10px;
+   padding: 5px 10px;
+   list-style-type: none;
+   transition: 0.3s ease all 0s;
+}
+.menu__link:hover {
+   background-color:#4169E1;
+   border: 2px solid #000;
+   transition: 0.3s ease all 0s;
+}
+.active{
+   background-color:#4169E1;
+   border: 2px solid #000;
+}
+.menu__link a{
+   color: #76FF7A;
+   font-weight: 500;
+}
+
+
 @media screen and (max-width: 479px){
    .form__content{
       min-width: 310px;
@@ -72,5 +115,13 @@ body {
    .form__block input{
       min-height: 50px;
       padding: 0px 15px;
+   }
+   .menu__link{
+      text-align: center;
+      flex: 30%;
+   }
+   .menu__block ul{
+      display: flex;
+      flex-wrap: wrap;
    }
 }
