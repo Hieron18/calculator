@@ -50,3 +50,8 @@ function add_del_4(user_id_1, user_id_2, user_id_3)  {
    let ph = (((4*Math.pow(3.14, 2))/Math.pow(t, 2))*0.1*s)/g;
    alert(ph)
 }
+
+function changeOrientation(event) {
+   alert("Rotate");
+   event.preventDefault();
+}
